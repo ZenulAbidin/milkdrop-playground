@@ -1,3 +1,4 @@
+#include "ns-eel.h"
 #include "ns-eel-addfuncs.h"
 
 #if defined(__APPLE__)
