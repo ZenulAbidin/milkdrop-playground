@@ -58,8 +58,8 @@ extern "C" {
 
   // or if you're daring....
 
-void NSEEL_HOSTSTUB_EnterMutex() {}
-void NSEEL_HOSTSTUB_LeaveMutex() {}
+void NSEEL_HOSTSTUB_EnterMutex();
+void NSEEL_HOSTSTUB_LeaveMutex();
 
 
 int NSEEL_init(); // returns 0 on success. clears any added functions as well
