@@ -1,3 +1,5 @@
+#include "ns-eel-addfuncs.h"
+
 #if defined(__APPLE__)
 #define SAVE_STACK "pushl %ebp\nmovl %esp, %ebp\nandl $-16, %esp\n"
 #define RESTORE_STACK "leave\n"
